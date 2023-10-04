@@ -1,0 +1,121 @@
+@media screen and (min-width: 1200px) {
+    .nav-lists-item {
+        display: inline-flex;
+        position: relative;
+    }
+    .nav-lists-item:hover .nav-link {
+        color: var(--ocean);
+    }
+    .nav-lists-item:hover .nav-link::after {
+        width: 100%;
+    }
+    .nav-lists {
+        display: inline-flex;
+        align-items: flex-start;
+        gap: 40px;
+    }
+    .header-menu-hamburger {
+        display: none;
+    }
+    .nav-lists, .contact-info-link {
+        list-style: none;
+    }
+    .contact-info-link {
+        color: var(--slate);
+        font-size: 16px;
+        line-height: 1.5em;
+        letter-spacing: 0.32px;
+        text-decoration: none;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .contact-info-item {
+        display: inline-flex;
+    }
+    .contact-info {
+        display: inline-flex;
+        gap: 40px;
+    }
+    .main-header-container {
+        padding: 24px 0;
+        display: inline-flex;
+        display: flex;
+        justify-content: space-between;
+    }
+    .container {
+        width: 1158px;
+        margin: 0 auto;
+    }
+    .container-section1 {
+        background-image: url(../images/hero-background.jpg);
+        padding: 188px 0;
+        width: 100%;
+    }
+    .hero-text {
+        font-size: 56px;
+        line-height: 1.07em;
+        letter-spacing: 1.12px;
+        margin-bottom: 36px;
+    }  
+    .feature-lists-item-icon-svg {
+        width: 64px;
+        height: 64px;
+    }
+    .feature-lists {
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+    }
+    .feature-lists-item {
+        width: 264px;
+        align-items: flex-start;
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+    }  
+    .feature-lists-item-text {
+        font-size: 20px;
+        line-height: 1.12em;
+    }
+    .container-section2 {
+        padding: 120px 0;
+    }
+    .services-maintext {
+        line-height: 1.11em;
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        font-size: 36px;
+        text-align: center;
+        color: var(--navyblue);
+    }
+    .services-details-lists li {
+        width: 360px;
+        list-style: none
+    }
+    .services-details-lists {
+        display: flex;
+        gap: 24px;
+        justify-content: space-between;
+    }
+    .services {
+        padding-bottom: 120px;
+    }
+    .services-maintext {
+        margin-bottom: 72px;
+    }
+    .member-lists {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+    .member-list-item-name {
+        margin-bottom: 8px;
+    }
+    .members {
+        padding: 120px 156px;
+    }
+    .container-footer {
+        display: flex;
+        gap: 120px;
+        flex-direction: row;
+    }
+}
